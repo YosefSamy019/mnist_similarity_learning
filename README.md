@@ -58,10 +58,10 @@ The project processes the MNIST dataset, trains multiple CNN models with differe
     - Parallel loading with `ThreadPoolExecutor` for efficiency.
   - Visualized sample pairs/triplets to verify generator correctness.
 
-![](images/img_3.png)
-![](images/img_4.png)
-![](images/img_5.png)
-![](images/img_6.png)
+- ![Pos/Neg Pairs](images/img_3.png)
+- ![Pos/Neg Pairs](images/img_4.png)
+- ![Anchor Pos Neq Triplet](images/img_5.png)
+- ![Anchor Pos Neq Triplet with CLS head](images/img_6.png)
 
 ### 5. Model Architectures
 
