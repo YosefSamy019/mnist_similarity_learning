@@ -124,6 +124,7 @@ Six models were designed and trained, each with a unique architecture and loss f
 - **Metrics**:
   - **Silhouette Score**: Measured clustering quality of test embeddings using Euclidean distance.
   - **3-NN Accuracy**: Trained a 3-nearest neighbors classifier on training embeddings and evaluated on test embeddings.
+  - ![](images/img_15.png)
 - **Results** (saved to `model_evaluation.csv`):
   - **cnn_simple_v2**: Silhouette=0.1554, 3-NN Accuracy=0.9779 (Triplet, Margin=10.0)
   - **cnn_simple_v1**: Silhouette=0.0991, 3-NN Accuracy=0.9614 (Siamese, Margin=10.0)
