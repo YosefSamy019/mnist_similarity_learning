@@ -42,6 +42,9 @@ The project processes the MNIST dataset, trains multiple CNN models with differe
     - Validation: (14,000, 28, 28, 1)
     - Test: (14,000, 28, 28, 1)
 
+![](images/img_1.png)
+![](images/img_2.png)
+
 ### 4. Data Generators
 
 - **Custom Data Generators**:
