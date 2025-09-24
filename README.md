@@ -58,6 +58,11 @@ The project processes the MNIST dataset, trains multiple CNN models with differe
     - Parallel loading with `ThreadPoolExecutor` for efficiency.
   - Visualized sample pairs/triplets to verify generator correctness.
 
+![](images/img_3.png)
+![](images/img_4.png)
+![](images/img_5.png)
+![](images/img_6.png)
+
 ### 5. Model Architectures
 
 Six models were designed and trained, each with a unique architecture and loss function:
@@ -92,6 +97,13 @@ Six models were designed and trained, each with a unique architecture and loss f
   - Custom loss functions: `contrastive_loss`, `triplet_loss`, `triplet_loss_l2_norm`, `triplet_loss_l2_norm_safe`.
   - Saved model weights and history in `models_cache/` directory.
   - Visualized model architectures (saved as `<model_name>_arch.png` in `models_cache/`).
+
+![](images/cnn_simple_v1_arch.png)
+![](images/cnn_simple_v2_arch.png)
+![](images/cnn_with_attention_cls_head_v1_arch.png)
+![](images/cnn_with_attention_cls_head_v2_arch.png)
+![](images/cnn_with_attention_v1_arch.png)
+![](images/cnn_with_attention_vit_style_v1_arch.png)
 
 ### 6. Training
 
