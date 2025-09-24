@@ -98,12 +98,12 @@ Six models were designed and trained, each with a unique architecture and loss f
   - Saved model weights and history in `models_cache/` directory.
   - Visualized model architectures (saved as `<model_name>_arch.png` in `models_cache/`).
 
-![](images/cnn_simple_v1_arch.png)
-![](images/cnn_simple_v2_arch.png)
-![](images/cnn_with_attention_cls_head_v1_arch.png)
-![](images/cnn_with_attention_cls_head_v2_arch.png)
-![](images/cnn_with_attention_v1_arch.png)
-![](images/cnn_with_attention_vit_style_v1_arch.png)
+- ![](images/cnn_simple_v1_arch.png)
+- ![](images/cnn_simple_v2_arch.png)
+- ![](images/cnn_with_attention_cls_head_v1_arch.png)
+- ![](images/cnn_with_attention_cls_head_v2_arch.png)
+- ![](images/cnn_with_attention_v1_arch.png)
+- ![](images/cnn_with_attention_vit_style_v1_arch.png)
 
 ### 6. Training
 
