@@ -141,9 +141,26 @@ Six models were designed and trained, each with a unique architecture and loss f
 - **Training Curves**:
   - Plotted training and validation loss for each model individually and collectively.
   - Paths: Inline plots (not saved to disk).
+    
+  - ![](images/img_7.png)
+  - ![](images/img_8.png)
+  - ![](images/img_9.png)
+  - ![](images/img_10.png)
+  - ![](images/img_11.png)
+  - ![](images/img_12.png)
+  - ![](images/img_13.png)
+  - ![](images/img_14.png)
+
 - **Latent Space Visualization**:
   - Used UMAP to reduce test embeddings (first 1,000 samples) to 2D.
   - Plotted scatter plots with class labels, saved as `latent_space/<model_name> latent space.png`.
+  - ![](latent_space/cnn_simple_v1%20latent%20space.png)
+  - ![](latent_space/cnn_simple_v2%20latent%20space.png)
+  - ![](latent_space/cnn_with_attention_cls_head_v1%20latent%20space.png)
+  - ![](latent_space/cnn_with_attention_cls_head_v2%20latent%20space.png)
+  - ![](latent_space/cnn_with_attention_v1%20latent%20space.png)
+  - ![](latent_space/cnn_with_attention_vit_style_v1%20latent%20space.png)
+
 - **Intermediate Features and Kernels**:
   - Visualized Conv2D layer outputs for a random input image (Trials 1-3).
   - Paths: `models_explain/Trial <1,2,3>/<model_name>/kernel no <i> Output.png`
