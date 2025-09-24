@@ -1,0 +1,7 @@
+index,Model Name,Train Type,Silhouette Score,3-NN Accuracy
+1,cnn_simple_v2,Triplet (Margin=10.0),0.15542040765285492,0.9778571428571429
+0,cnn_simple_v1,Siamese_Loss (Margin=10.0),0.09914013743400574,0.9613571428571429
+2,cnn_with_attention_v1,Triplet (Margin=10.0),0.05337647721171379,0.7483571428571428
+5,cnn_with_attention_vit_style_v1,Constractive (Margin),-0.052082352340221405,0.43564285714285716
+3,cnn_with_attention_cls_head_v1,"Triplet with CLS Head (Margin=1.0, L2 Norm)",-0.0825464129447937,0.3355
+4,cnn_with_attention_cls_head_v2,"Triplet with CLS Head (Margin, L2 Norm, STD DEV, Center)",-0.12111514061689377,0.3703571428571429
