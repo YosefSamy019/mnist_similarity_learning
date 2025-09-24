@@ -173,9 +173,14 @@ Six models were designed and trained, each with a unique architecture and loss f
 - **Intermediate Features**:
   - Extracted Conv2D layer outputs for a single input image using a submodel.
   - Visualized feature maps as grids (16 columns, resized 15x) with Viridis colormap.
+  - ![](models_explain/Trial%201/cnn_with_attention_cls_head_v1/kernel%20no%200%20Output.png)
+  - ![](models_explain/Trial%202/cnn_with_attention_cls_head_v1/kernel%20no%200%20Output.png)
+  - ![](models_explain/Trial%203/cnn_with_attention_cls_head_v1/kernel%20no%200%20Output.png)
 - **Kernel Visualization**:
   - Used gradient ascent to visualize the input that maximizes activation for each Conv2D filter.
   - Saved as grids with Viridis colormap.
+  - ![](models_explain/Intermediate%20Kernels/cnn_simple_v1/layer%20no%200%20kernel%20weights.png)
+  - ![](models_explain/Intermediate%20Kernels/cnn_simple_v2/layer%20no%200%20kernel%20weights.png)
 
 ## Directory Structure
 
